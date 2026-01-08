@@ -1,22 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>MARIA 마리아 — Model in Seoul</title>
-<link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-<header>
-  <h1>MARIA 마리아</h1>
-  <p>모델 | 서울</p>
-  <nav>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</header>
+  <meta charset="UTF-8" />
+  <title>MARIA 마리아 | Model in Seoul</title>
 
-<section class="hero">
-  <img src="assets/img/hero.jpg" alt="마리아 Headshot">
-</section>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #0f0f14;
+      color: #f5f5f7;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px 20px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.25rem;
+      letter-spacing: 0.05em;
+    }
+
+    header p {
+      opacity: 0.8;
+      margin-bottom: 1.5rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+    }
+
+    nav a {
+      color: #f5f5f7;
+      text-decoration: none;
+      opacity: 0.7;
+      font-weight: 500;
+      transition: opacity 0.2s ease;
+    }
+
+    nav a:hover {
+      opacity: 1;
+    }
+
+    .hero {
+      margin-top: 40px;
+    }
+
+    .hero img {
+      width: 320px;
+      max-width: 80%;
+      border-radius: 20px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>MARIA 마리아</h1>
+    <p>Model | Seoul</p>
+    <nav>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="assets/img/hero.jpg" alt="Maria headshot">
+  </section>
+
 </body>
 </html>
