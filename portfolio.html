@@ -20,12 +20,19 @@
   </div>
 </header>
 
-  <section class="gallery">
-    <img src="assets/img/portfolio1.jpg" alt="Maria modeling portfolio">
-    <img src="assets/img/portfolio2.jpg" alt="Maria modeling portfolio">
-    <img src="assets/img/portfolio3.jpg" alt="Maria modeling portfolio">
-    <!--Add more as we see fit! -->
-  </section>
+<section class="gallery">
+  <img src="assets/img/portfolio/portfolio01.jpg" alt="Portfolio Image 01" onclick="openLightbox(0)">
+  <img src="assets/img/portfolio/portfolio02.jpg" alt="Portfolio Image 02" onclick="openLightbox(1)">
+  <img src="assets/img/portfolio/portfolio03.jpg" alt="Portfolio Image 03" onclick="openLightbox(2)">
+</section>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+  <span class="close" onclick="closeLightbox()">×</span>
+  <span class="nav prev" onclick="changeImage(-1)">❮</span>
+  <img id="lightbox-img" src="">
+  <span class="nav next" onclick="changeImage(1)">❯</span>
+</div>
 
 </body>
 </html>
