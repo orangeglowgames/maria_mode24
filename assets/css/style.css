@@ -108,7 +108,7 @@ body {
 
 .contact a {
   color: #ff8fb8;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   font-weight: 500;
   transition: color 0.2s ease, text-shadow 0.2s ease;
 }
