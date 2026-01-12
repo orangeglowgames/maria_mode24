@@ -106,6 +106,22 @@ body {
   margin: 12px 0;
 }
 
+.contact a {
+  color: #f5f5f7;
+  text-decoration: none;
+  opacity: 0.9;
+  transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+.contact a:hover {
+  opacity: 1;
+}
+
+.contact a:visited,
+.contact a:active {
+  color: #ff9fbf;
+}
+
 /* ===== Portfolio ===== */
 .gallery {
   max-width: 1200px;
